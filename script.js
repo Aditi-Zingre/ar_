@@ -1,7 +1,7 @@
 let arToolkitSource, arToolkitContext, arMarkerControls;
 
 document.getElementById("startAR").addEventListener("click", () => {
-    startAR("https://your-host.com/pattern-v1.patt");  // Replace with your actual .patt file URL
+    startAR("pattern-v1.patt");  // Replace with your actual .patt file URL
 });
 
 function startAR(patternUrl) {
